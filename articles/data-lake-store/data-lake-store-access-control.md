@@ -24,7 +24,7 @@ Data Lake Store implements an access control model that derives from HDFS, and i
 There are two kinds of Acess control lists (ACLs) -  **Access ACLs** and **Default ACLs**.
 
 * **Access ACLs** – These control access to an object. Files and Folders both have Access ACLs.
-* **Default ACLs** – A "template" of ACLs associated with a folder that determine the Access ACLs for any child items created under that folder. Files do not have Default ACLs.
+* **Default ACLs** – A "template" of ACLs associated with a folder that determine the Access ACLs for any child items created under that folder. Files do not have Default ACLs. 
 
 ![Data Lake Store ACLs](./media/data-lake-store-access-control/data-lake-store-acls-1.png)
 
